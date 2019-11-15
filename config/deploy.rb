@@ -1,10 +1,6 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.2"
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
-
-# Change these
 server '139.59.90.116', port: 3000, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/SumanDas3001/testapp.git'
