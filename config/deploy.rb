@@ -7,9 +7,9 @@ set :repo_url, "git@example.com:me/my_repo.git"
 # Change these
 server '139.59.90.116', port: 3000, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@example.com:username/appname.git'
-set :application,     'appname'
-set :user,            'deploy'
+set :repo_url,        'https://github.com/SumanDas3001/testapp.git'
+set :application,     'testapp'
+set :user,            'demo'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
