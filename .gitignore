@@ -12,7 +12,6 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-Gemfile.lock
 
 
 # Ignore uploaded files in development
