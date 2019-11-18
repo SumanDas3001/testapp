@@ -82,8 +82,8 @@ development:
 #
 production:
   <<: *default
-  database: testdb
-  username: postgres
-  password: nopassword
+  database: testapp_db
+  username: demo
+  password: postgres
   pool: 5
 
